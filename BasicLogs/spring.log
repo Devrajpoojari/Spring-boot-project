@@ -1,0 +1,19 @@
+2023-10-12 10:41:34,573 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-4 housekeeper] HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=10h54m20s381ms415µs200ns).
+2023-10-12 13:53:38,922 INFO org.apache.catalina.core.StandardService [Thread-13] Stopping service [Tomcat]
+2023-10-12 13:53:40,079 INFO com.zaxxer.hikari.HikariDataSource [Thread-13] HikariPool-4 - Shutdown initiated...
+2023-10-12 13:53:40,116 INFO com.zaxxer.hikari.HikariDataSource [Thread-13] HikariPool-4 - Shutdown completed.
+2023-10-12 13:53:41,309 INFO com.simple.app.BasicSpringBootApplication [restartedMain] Starting BasicSpringBootApplication using Java 17.0.1 on inlen8520027115 with PID 34252 (C:\Users\DHIRAGEP\Desktop\W3 Softtech\simple-project\target\classes started by dhiragep in C:\Users\DHIRAGEP\Desktop\W3 Softtech\simple-project)
+2023-10-12 13:53:41,310 INFO com.simple.app.BasicSpringBootApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-10-12 13:53:42,343 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-10-12 13:53:42,344 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-12 13:53:42,409 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-10-12 13:53:42,473 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-12 13:53:42,485 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2023-10-12 13:53:42,678 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2023-10-12 13:53:42,679 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-12 13:53:42,885 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-12 13:53:43,273 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-10-12 13:53:43,803 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2023-10-12 13:53:43,806 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2023-10-12 13:53:43,812 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2023-10-12 13:53:43,929 INFO com.simple.app.BasicSpringBootApplication [restartedMain] Started BasicSpringBootApplication in 2.815 seconds (JVM running for 55023.303)
